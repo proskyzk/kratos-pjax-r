@@ -21,9 +21,6 @@ $('.waifu-tool .fa-home').click(function(){
 $('.waifu-tool .fa-comments').click(function(){
     showHitokoto()
 });
-$('.waifu-tool .fa-info-circle').click(function(){
-    window.open('https://moedog.org/946.html')
-});
 $('.waifu-tool .fa-camera').click(function(){
     showMessage('照好了嘛，是不是很可爱呢？',5000);
     window.Live2D.captureName = model_p+'.png';
@@ -39,7 +36,7 @@ $('.waifu-tool .fa-drivers-license-o').click(function(){
     if(model_p===22){
         loadlive2d('live2d',xb.thome+'/inc/model/api.php?p=22&id='+m22_id);
         model_p = 33;
-        showMessage('33援交有点累了，现在该我上场了',4000)
+        showMessage('33有点累了，现在该我上场了',4000)
     }else{
         loadlive2d('live2d',xb.thome+'/inc/model/api.php?p=33&id='+m33_id);
         model_p = 22;

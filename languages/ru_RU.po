@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: 404.php:21
-msgid "欸？我的萝莉怎么不见了？！"
+msgid "非常抱歉，你要找到页面不见了"
 msgstr "Извините, страница, которую вы ищете, не найдена."
 
 #: comments.php:9 inc/post.php:164

@@ -376,7 +376,7 @@ textarea{overflow:auto}
 .unhide{padding:8px;border:1px dashed #ff9a9a;margin-bottom:15px}
 .unhide .info{font-size:12px;color:red}
 .waifu{position:fixed;left:0;top:0;width:230px;height:270px;z-index:2000;user-select:none;-webkit-user-select:none;-ms-user-select:none;-moz-user-select:none}
-.waifu-tips{opacity:0;width:220px;height:70px;margin:-20px 5px;padding:5px 7px;border:1px solid rgba(224,186,140,0.8);border-radius:12px;background-color:rgba(236,217,188,0.8);box-shadow:0 3px 15px 2px rgba(191,158,118,0.2);font-size:12px;line-height:20px;color:#555;text-overflow:ellipsis;overflow:hidden;position:absolute}
+.waifu-tips{opacity:0;width:220px;height:70px;margin:-20px 5px;padding:5px 7px;border:1px solid rgba(61, 110, 145, 0.8);border-radius:12px;background-color:rgba(154, 211, 249, 0.8);box-shadow:0 3px 15px 2px rgba(191,158,118,0.2);font-size:12px;line-height:20px;color:#555;text-overflow:ellipsis;overflow:hidden;position:absolute}
 .waifu-tool{display:none;color:#aaa;top:50px;right:0;font-size:16px;position:absolute}
 .waifu:hover .waifu-tool{display:block}
 .waifu-tool span{display:block;cursor:url(../images/pointer.cur),auto;color:#5b6c7d;line-height:22px;transition:0.2s;-webkit-transition:0.2s}
@@ -425,11 +425,11 @@ textarea{overflow:auto}
 #kratos-header-section.color-banner .sub-menu a{color:#848484!important;padding:10px 5px!important;white-space:normal}
 #kratos-header-section.color-banner .sub-menu a:hover{background:#f2f2f2;border-radius:5px}
 .kratos-cover,.kratos-start{position:relative;height:55px}
-.kratos-cover.kratos-hero-2,.kratos-start.kratos-hero-2{height:320px}
+.kratos-cover.kratos-hero-2,.kratos-start.kratos-hero-2{height:220px}
 .kratos-overlay{position:absolute!important;width:100%;top:0;left:0;bottom:0;right:0;z-index:1;background:rgba(66,64,64,.2)}
 .kratos-cover{background-size:cover;position:relative;background-position:center center}
 .kratos-cover .btn{padding:1em 5em;opacity:.9}
-.kratos-cover.kratos-cover_2{height:320px}
+.kratos-cover.kratos-cover_2{height:220px}
 .kratos-cover .desc{top:50%;position:absolute;width:100%;margin-top:-50px;z-index:2;color:#fff;text-shadow:2px 2px 2px #666}
 .kratos-cover .desc h2{color:#fff;text-transform:none;font-size:40px;display:inline-block}
 .kratos-cover .desc p,.kratos-cover .desc span{color:#fff;margin-bottom:30px;font-size:25px;letter-spacing:1px;display:inline-block}
@@ -694,7 +694,7 @@ a.comment-reply-link,a.comment-reply-login{text-decoration:none;padding:2px 5px;
 .wechat-img{bottom:80px;background:#848484;opacity:.7}
 .wechat-img #wechat-pic{display:none}
 .wechat-img img{position:absolute;right:55px;bottom:-55px;width:150px;height:150px}
-#footer{padding:40px 0 30px}
+#footer{padding:10px 0 10px 0}
 #footer p{color:rgba(255,255,255,.3);letter-spacing:1px;font-size:14px;text-transform:uppercase}
 #footer p a{color:rgba(255,255,255,.5)}
 #footer .govimg{display:inline-block;margin-top:-4px;margin-right:6px;width:14px;height:1pc;background:url(../images/icon-police.png) 0 0 no-repeat;vertical-align:middle}

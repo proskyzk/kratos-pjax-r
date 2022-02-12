@@ -26,7 +26,7 @@
                             <div class="search-box">
                                 <span class="fa fa-search"></span>
                                 <form class="search-form" role="search" method="get" id="searchform" action="<?php echo home_url('/'); ?>">
-                                    <input type="text" name="s" id="search" placeholder="Search..." style="display:none"/>
+                                    <input type="text" name="s" id="search" placeholder="搜索..." style="display:none"/>
                                 </form>
                             </div>
                         </div>
@@ -40,7 +40,6 @@
                                 <span class="fa fa-drivers-license-o"></span>
                                 <span class="fa fa-street-view"></span>
                                 <span class="fa fa-camera"></span>
-                                <span class="fa fa-info-circle"></span>
                                 <span class="fa fa-close"></span>
                             </div>
                         </div>
